@@ -5,32 +5,24 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
+# Site settings (fallback)
 title-bold: Forty
 title-normal: by HTML5 UP
-email: youremailaddress@gmail.com
 description: The Jekyll version of the Forty theme by HTML5 UP.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "http://www.zac-heisey.com" # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 12345
-country: United States of America
+
+# Contact settings (fallback)
+street_address: 31 Queen Street
+city: Charlottetown
+state: PE
+zip_code: C1A 4A4
+country: Canada
 phone: (123) 456-7890
+email: info@forestry.io
 
-# Plugins
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-
-# Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
-
-# Social settings
+# Social settings (fallback)
 500px_url:
 facebook_url:
 github_url: https://github.com/scottgallant
@@ -41,6 +33,16 @@ linkedin_url:
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/forestryio
+
+# Plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
 
 # Build settings
 markdown: kramdown
