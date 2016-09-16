@@ -1,10 +1,11 @@
-500px_url:
-facebook_url:
+---
+500px_url: ''
+facebook_url: ''
 github_url: https://github.com/scottgallant
 gitlab_url: https://gitlab.com/u/scottgallant
-googleplus_url:
-instagram_url: https://www.instagram.com/forestryio
-linkedin_url:
-pinterest_url:
+googleplus_url: ''
+instagram_url: ''
+linkedin_url: ''
+pinterest_url: ''
 slack_url: https://forestryio.slack.com/
 twitter_url: https://twitter.com/forestryio
