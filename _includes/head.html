@@ -1,11 +1,17 @@
 <head>
-	<title>{{ site.title }}</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>{% if page.title %}{{ page.title }} | {{ site.data.site_settings_info.title }}{% else %}{{ site.data.site_settings_info.title | escape }}{% endif %}</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.site_settings_info.description }}{% endif %}">
+	<link rel="stylesheet" href="{{ "/assets/css/main.css " | prepend: site.baseurl }}">
+
+	<link rel="icon" type="image/png" href="{{ "/images/favicon.png " | prepend: site.baseurl }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml " | prepend: site.baseurl }}">
+	
 	{% seo %}
 	{% feed_meta %}
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
 </head>
