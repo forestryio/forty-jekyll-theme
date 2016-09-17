@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: Hi, my name is Forty
-description:
+description: This is the Jekyll Version of the Forty Theme by HTML5 UP.<br>You can edit this content in the `description` front matter<br>field of your index.md file.
 image: assets/images/banner.jpg
 author:
 nav-menu:
@@ -18,7 +18,7 @@ nav-menu:
 			<h1>{{ page.landing-title }}</h1>
 		</header>
 		<div class="content">
-			<p style="text-transform: uppercase;">{{ site.description }}</p>
+			<p style="text-transform: uppercase;">{{ page.description }}</p>
 			<ul class="actions">
 				<li><a href="#one" class="button next scrolly">Get Started</a></li>
 			</ul>
