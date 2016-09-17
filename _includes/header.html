@@ -3,7 +3,16 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ site.url }}{{ site.baseurl }}" class="logo"><strong>{{ site.title-bold }}</strong> <span>{{ site.title-normal }}</span></a>
+
+	<!-- Logo & Site Title -->
+	<a href="{{ site.url }}{{ site.baseurl }}" class="logo">
+		{% if site.data.site_settings_info.logo_image %}
+		<img src="{{ site.baseurl }}/{{ site.data.site_settings_info.logo_image }}" alt="{{ site.data.site_settings_info.title }} Logo" /><strong>{{ site.data.site_settings_info.title }}</strong> <span>{{ site.data.site_settings_info.subtitle }}</span>
+		{% else %}
+		<strong>{{ site.data.site_settings_info.title }}</strong> <span>{{ site.data.site_settings_info.subtitle }}</span>
+		{% endif %}
+	</a>
+
 	<nav>
 		<a href="#menu">Menu</a>
 	</nav>
