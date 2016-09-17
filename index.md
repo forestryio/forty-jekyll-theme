@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: Hi, my name is Forty
 description:
-image:
+image: assets/images/banner.jpg
 author:
 nav-menu:
 ---
@@ -11,6 +11,9 @@ nav-menu:
 <!-- Banner -->
 <section id="banner" class="major">
 	<div class="inner">
+	<span class="image">
+		<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
+	</span>
 		<header class="major">
 			<h1>{{ page.landing-title }}</h1>
 		</header>
