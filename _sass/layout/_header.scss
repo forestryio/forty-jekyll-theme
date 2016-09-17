@@ -36,6 +36,23 @@
 			line-height: inherit;
 			padding: 0 1.5em;
 
+			> * {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			.symbol {
+				margin-right: 0.65em;
+
+				img {
+					display: inline-block;
+					width: 3em;
+					height: 3em;
+					vertical-align: middle;
+					margin-right: 1.5em;
+				}
+			}
+
 			strong {
 				@include vendor('transition', (
 					'background-color #{_duration(transition)} ease-in-out',
