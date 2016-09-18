@@ -38,18 +38,20 @@ logo:
 google_site_verification:
 
 # Defaults
-defaults: 
+defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
+      description: ""
+      image: ""
       categories: ""
       tags: []
-      image: ""
   - scope:
       path: ""
       type: pages
     values:
       layout: page
+      description: ""
       image: ""
