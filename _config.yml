@@ -36,3 +36,20 @@ facebook:
   admins:
 logo:
 google_site_verification:
+
+# Defaults
+defaults: 
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      categories: ""
+      tags: []
+      image: ""
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      image: ""
