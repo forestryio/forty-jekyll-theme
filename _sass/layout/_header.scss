@@ -232,10 +232,8 @@
 		}
 
 		@include breakpoint(xsmall) {
-			.logo {
-				span {
-					display: none;
-				}
+			#subtitle {
+				display: none;
 			}
 
 			nav {

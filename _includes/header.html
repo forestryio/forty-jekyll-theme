@@ -8,7 +8,7 @@
 	<a href="{{ site.baseurl }}/" class="logo">
 		<span class="symbol">
 			{% if site.data.site_settings_info.logo_image %}
-			<img src="{{ site.baseurl }}/{{ site.data.site_settings_info.logo_image }}" alt="{{ site.data.site_settings_info.title }} Logo" /><strong>{{ site.data.site_settings_info.title }}</strong> <span>{{ site.data.site_settings_info.subtitle }}</span>
+			<img src="{{ site.baseurl }}/{{ site.data.site_settings_info.logo_image }}" alt="{{ site.data.site_settings_info.title }} Logo" /><strong>{{ site.data.site_settings_info.title }}</strong> <span id="subtitle">{{ site.data.site_settings_info.subtitle }}</span>
 			{% else %}
 			<strong>{{ site.data.site_settings_info.title }}</strong> <span id="subtitle">{{ site.data.site_settings_info.subtitle }}</span>
 		</span>
