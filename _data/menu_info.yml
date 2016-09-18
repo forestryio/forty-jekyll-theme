@@ -1,0 +1,17 @@
+---
+- title: Home
+  url: /
+  priority: 1
+- title: Landing
+  url: /elements.html
+  priority: 2
+- title: Generic
+  url: /generic.html
+  priority: 3
+- title: Elements
+  url: /elements.html
+  priority: 4
+- title: Blog
+  url: /blog.html
+  priority: 5
+---
