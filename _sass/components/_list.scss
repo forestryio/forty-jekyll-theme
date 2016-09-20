@@ -61,6 +61,17 @@
 			}
 		}
 
+		&.post-list {
+
+			li {
+				margin-bottom: 2em;
+			}
+
+			h2 {
+				margin-bottom: 0;
+			}
+		}
+
 		&.actions {
 			cursor: default;
 			list-style: none;
