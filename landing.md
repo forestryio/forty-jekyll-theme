@@ -1,9 +1,10 @@
 ---
 layout: landing
 title: Landing
-description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
+description: This is a landing page. You'll find this page in the root directory<br> of your Jekyll project. These types of pages are great for<br> featuring the benefits of your various products and services.
 banner-image: assets/images/pic07.jpg
-primary-headline: Sed amet aliquam
+primary-headline: Primary Headline
+primary-content: Here is where you can place your primary content, which can serve as an introduction to your product or service.
 ---
 
 <!-- Two -->
