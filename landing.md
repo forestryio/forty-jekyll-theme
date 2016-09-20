@@ -5,13 +5,27 @@ description: This is a landing page. You'll find this page in the root directory
 banner-image: assets/images/pic07.jpg
 primary-headline: Primary Headline
 primary-content: Here is where you can place your primary content, which can serve as an introduction to your product or service.
+content-blocks:
+- heading: Orci maecenas
+  blurb: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+  image: "assets/images/pic08.jpg"
+  link: "test1.html"
+- heading: Rhoncus magna
+  blurb: Vivamus et sagittis tempus. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
+  image: assets/images/pic09.jpg
+  link: "test2.html"
+- heading: Sed nunc ligula
+  blurb: Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+  image: assets/images/pic10.jpg
+  link: "test3.html"
 ---
 
 <!-- Two -->
+{% for item in page.content-blocks %}
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+		<a href="{{ site.baseurl }}/{{ item.link }}" class="image">
+			<img src="{{ item.image }}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -26,8 +40,8 @@ primary-content: Here is where you can place your primary content, which can ser
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
+		<a href="{{ site.baseurl }}/{{ item.link }}" class="image">
+			<img src="{{ item.image }}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -71,3 +85,4 @@ primary-content: Here is where you can place your primary content, which can ser
 		</ul>
 	</div>
 </section>
+{% endfor %}
