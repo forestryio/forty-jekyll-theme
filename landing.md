@@ -3,20 +3,8 @@ layout: landing
 title: Landing
 description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
 banner-image: assets/images/pic07.jpg
+primary-headline: Sed amet aliquam
 ---
-
-<!-- Main -->
-<div id="main">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Sed amet aliquam</h2>
-		</header>
-		<p>This is a landing page. You'll find this page in the root directory of your Jekyll project. These types of pages are great for featuring the benefits of your various products and services.</p>
-	</div>
-</section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
@@ -82,5 +70,3 @@ banner-image: assets/images/pic07.jpg
 		</ul>
 	</div>
 </section>
-
-</div>
