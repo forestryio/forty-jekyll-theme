@@ -7,30 +7,6 @@ image: assets/images/banner.jpg
 author:
 ---
 
-<!-- Banner -->
-<section id="banner" class="major">
-	<div class="inner">
-	<span class="image">
-		<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
-	</span>
-		<header class="major">
-			<h1>{{ page.landing-title }}</h1>
-		</header>
-		<div class="content">
-			<p style="text-transform: uppercase;">{{ page.description }}</p>
-			<ul class="actions">
-				<li><a href="#one" class="button next scrolly">Get Started</a></li>
-			</ul>
-		</div>
-	</div>
-</section>
-
-<!-- Main -->
-<div id="main">
-
-<!-- One -->
-{% include tiles.html %}
-
 <!-- Two -->
 <section id="two">
 	<div class="inner">
@@ -43,5 +19,3 @@ author:
 		</ul>
 	</div>
 </section>
-
-</div>
