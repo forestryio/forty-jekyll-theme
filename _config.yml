@@ -65,7 +65,7 @@ defaults:
       path: ""
       type: products
     values:
-      layout: landing
+      layout: product
       description: ""
       banner-image: ""
       primary-headline: ""

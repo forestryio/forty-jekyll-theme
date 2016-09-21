@@ -1,7 +1,7 @@
 ---
-layout: landing
-title: Landing
-description: This is a landing page. You'll find this page in the root directory<br> of your Jekyll project. These types of pages are great for<br> featuring the benefits of your various products and services.
+layout: product
+title: Product
+description: This is a sample product page. You can add more products<br> in the _products directory of your Jekyll project.
 banner-image: assets/images/pic07.jpg
 primary-headline: Primary Headline
 primary-content: Here is where you can place your primary content, which can serve as an introduction to your products and services.

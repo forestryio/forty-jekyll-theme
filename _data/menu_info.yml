@@ -2,8 +2,8 @@
 - title: Home
   url: /
   priority: 1
-- title: Landing
-  url: /landing.html
+- title: Product
+  url: /products/sample-product
   priority: 2
 - title: Generic
   url: /generic.html
