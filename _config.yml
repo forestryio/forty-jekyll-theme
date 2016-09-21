@@ -37,6 +37,12 @@ facebook:
 logo:
 google_site_verification:
 
+# Collections
+collections:
+  products:
+    output: true
+    permalink: /products/:path/
+
 # Defaults
 defaults:
   - scope:
@@ -54,4 +60,18 @@ defaults:
     values:
       layout: page
       description: ""
-      image: ""  
+      image: ""
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: landing
+      description: ""
+      banner-image: ""
+      primary-headline: ""
+      primary-content: ""
+      content-blocks:
+        - heading: ""
+          blurb: ""
+          image: ""
+          link: ""
