@@ -55,3 +55,17 @@ defaults:
       layout: page
       description: ""
       image: ""
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: landing
+      description: ""
+      banner-image: ""
+      primary-headline: ""
+      primary-content: ""
+      content-blocks:
+        - heading: ""
+          blurb: ""
+          image: ""
+          link: ""   
